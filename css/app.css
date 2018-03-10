@@ -40,8 +40,14 @@ body {
     text-align: center;
 }
 
+.destintion:hover h2 {
+transform : rotate(0deg);
+   
+}
+
 h2 {
     margin: 0;
+    tarnsition: transform 0.5s;
     transform: rotate(-45deg);
     text-shadow: 0 0 5px #01579b;
 }
